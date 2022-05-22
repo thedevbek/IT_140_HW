@@ -1,3 +1,6 @@
+'''
+Write a program using integers user_num and x as input, and output user_num divided by x three times.'''
+
 user_num = input()
 x = input()
 first_time = int(user_num) // int(x)

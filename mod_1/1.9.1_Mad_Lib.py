@@ -1,4 +1,9 @@
-# Type your code to read four values here.
+'''
+Mad Libs are activities that have a person provide various words, which are then used to complete a short story in unexpected (and hopefully funny) ways.
+
+Complete the program to read four values from input and store the values in variables first_name, generic_location, whole_number, and plural_noun. The program uses the input values to output a short story.'''
+
+
 first_name = ''
 generic_location = ''
 whole_number = ''

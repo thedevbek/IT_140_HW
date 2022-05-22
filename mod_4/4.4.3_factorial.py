@@ -4,32 +4,10 @@ Write a program that lets a user enter N and that outputs N! (N factorial, meani
 '''
 N = int(input())  # Read user-entered number
 total = N
-# Initialize the loop variable
-
-while i ? ??:
-    # Set total to total * (i)
-    # Decrement i
-
-print(total)
-
-'''
-N = int(input())  # Read user-entered number
-total = N
-# Initialize the loop variable
-i = 1
-while total > 0:
-    i = i * total
-    total = total - 1
+x = 0
+i = 0
+while i > 1:
+    N *= i
+    x -= 1
 
 print(total)
-#####What is the difference#########
-N = int(input())  # Read user-entered number
-total = N
-# Initialize the loop variable
-i = 1
-while N > 0:
-    i = i * N
-    N = N - 1
-
-print(total)
-'''

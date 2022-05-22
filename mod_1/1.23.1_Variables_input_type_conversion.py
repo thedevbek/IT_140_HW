@@ -1,4 +1,4 @@
-#Prompt the user to input an integer between 32 and 126, a float, a character, and a string, storing each into separate variables. Then, output those four values on a single line separated by a space.
+'''Prompt the user to input an integer between 32 and 126, a float, a character, and a string, storing each into separate variables. Then, output those four values on a single line separated by a space.'''
 
 user_int = int(input('Enter integer (32 - 126):\n'))
 user_float = float(input('Enter float:\n'))

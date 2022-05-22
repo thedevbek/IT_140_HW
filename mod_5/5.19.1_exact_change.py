@@ -1,3 +1,9 @@
+'''Write a program with total change amount as an integer input that outputs the change using the fewest coins, one coin type per line. The coin types are dollars, quarters, dimes, nickels, and pennies. Use singular and plural coin names as appropriate, like 1 penny vs. 2 pennies.
+
+Your program must define and call the following function. The function exact_change() should return num_dollars, num_quarters, num_dimes, num_nickels, and num_pennies.
+def exact_change(user_total)
+'''
+
 def exact_change(user_total): #values goes to the function
     num_dollars = user_total // 100 #convert to dollars
     user_total %= 100 #get remainder after conversion
